@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    height: 200vh;
+    background-color: #1d1c1f;
+}
+
+.navbar-vertical {
+    background-color: #2e3043;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full height of the viewport */
+    display: flex;
+    align-items: center; /* Center items horizontally */
+    justify-content: space-between; /* Space evenly between items */
+    width: 106px; /* Allow the navbar to adjust its width */
+    ; /* Minimum width to ensure it's visible */
+    
+}
+
+.navbar-vertical ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-vertical li {
+    text-align: center;
+    height: 88px;
+    font-size: 18px;
+}
+
+.navbar-vertical a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #1d1c1f;
+    height: 100px;
+}
+
+.navbar .logo {
+    width: 80px;
+    height: 42px;
+    margin-left: auto; 
+     
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    background-color: #343434;
+    border-radius: 35px;
+    padding: 5px 10px;
+    margin-left: 50px; 
+    margin-right: auto; 
+    max-width: 700px; 
+    flex: 1; /* Take remaining space */
+}
+
+.search-container input {
+    border: none;
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    width: 100%; 
+    background-color: #343434;
+    color: white;
+}
+
+.search-container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ff3b30;
+    color: #fff;
+    height: 39px;
+    padding: 0 15px;
+    margin-left: 10px;
+}
+
+.search-container button i {
+    margin-right: 5px;
+}
+
+.navbar .register {
+    color: #fff;
+    margin-left: 30px;
+    text-decoration: none;
+    font-size: 23px;
+}
+#person {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: gray;
+    margin-left: 20px;
+    margin-right: 10px;
+    
+}
+#person:hover{
+    border: 2px solid red;
+}
+
+.navbar-vertical .active {
+    border-left: 3px solid red; /* Red left border for active item */
+    color: red; /* Text color */
+    font-weight: bold; /* Bold text for emphasis */
+    pointer-events: none; /* Disable hover events to keep it always red */
+}
+
+.navbar-vertical li:hover{
+     border-left: 3px solid red;
+     
+
+}
+
+}
+
