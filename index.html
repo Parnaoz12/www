@@ -1,32 +1,885 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viewit</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Viewit </i></title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" type="x-icon" href="images/Syte.jpg">
+        <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css">
+    </head>
+    
 <body>
     <nav class="navbar">
-        <img src="images/imdb1.png" alt="Logo" class="logo">
+        <H3 class="logo">Viewit</H3>
         <div class="search-container">
             <input type="text" placeholder="Search...">
-            <button><i class="fas fa-search"></i> Search</button>
+            <button><i class="fa-duotone fa-magnifying-glass"></i>Search</button>
         </div>
         <a href="#" class="register">Register</a>
-        <a id="person" href="register.html"></a>
+        <a id="person" href="register.html"><i class="fa-solid fa-user"></i></a>
     </nav>
+  
+    
     <nav class="navbar-vertical">
         <ul>
-            <li class="active"><a href="#"><i class="fas fa-home"></i> Home</a></li>
-            <li><a href="#"><i class="fas fa-film"></i> Movies</a></li>
-            <li><a href="#"><i class="fas fa-tv"></i> Series</a></li>
-            <li><a href="#"><i class="fas fa-video"></i> Trailers</a></li>
-            <li><a href="#"><i class="fas fa-users"></i> Actors</a></li>
+            <li class="active"><a href="#"><i class="fa-duotone fa-house-chimney"></i> Home</a></li>
+            <li><a href="movies.html"><i class="fa-duotone fa-cassette-tape"></i></i> Movies</a></li>
+            <li><a href="series.html"><i class="fa-duotone fa-camera-movie"></i>Series</a></li>
+            <li><a href="trailers.html"><i class="fa-solid fa-film"></i> Trailers</a></li>
+            <li><a href="actors.html"><i class="fa-duotone fa-masks-theater"></i> Actors</a></li>
         </ul>
     </nav>
-    
+    <div class="container">
+        <div class="item">
+            <img src="images/GWL.jpg" alt="Good Will Hunting">
+            <div class="info">
+                <h3>Good Will Hunting</h3>
+                <p>1997</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/Donnie_Darko.jpg" alt="Donnie Darko">
+            <div class="info">
+                <h3>Donnie Darko</h3>
+                <p>2001</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/Forrest_Gump.jpg" alt="Forrest Gump">
+            <div class="info">
+                <h3>Forrest Gump</h3>
+                <p>1994</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/8mile.jpg" alt="8 Mile">
+            <div class="info">
+                <h3>8 Mile</h3>
+                <p>2002</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/ROTS.webp" alt="Revenge of the Sith">
+            <div class="info">
+                <h3>Revenge of the Sith</h3>
+                <p>2005</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/BTTF.jpg" alt="Back to the Future">
+            <div class="info">
+                <h3>Back to the Future</h3>
+                <p>1985</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/Cuckoos_nest.jpg" alt="One Flew Over the Cuckoo's Nest">
+            <div class="info">
+                <h3>One Flew Over the Cuckoo's Nest</h3>
+                <p>1975</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/TESB.jpg" alt="The Empire Strikes Back">
+            <div class="info">
+                <h3>The Empire Strikes Back</h3>
+                <p>1980</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/True_Romance.jpg" alt="True Romance">
+            <div class="info">
+                <h3>True Romance</h3>
+                <p>1993</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/Terminator2.jpg" alt="Terminator 2: Judgment Day">
+            <div class="info">
+                <h3>Terminator 2: Judgment Day</h3>
+                <p>1991</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/Prisoners.jpg" alt="Prisoners">
+            <div class="info">
+                <h3>Prisoners</h3>
+                <p>2013</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/BTTF2.jpeg" alt="Back to the Future Part II">
+            <div class="info">
+                <h3>Back to the Future Part II</h3>
+                <p>1989</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/MJB.jpg" alt="Men in Black">
+            <div class="info">
+                <h3>Men in Black</h3>
+                <p>1997</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/TPM.jpg" alt="The Phantom Menace">
+            <div class="info">
+                <h3>The Phantom Menace</h3>
+                <p>1999</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/Dead_poets.jpg" alt="Dead Poets Society">
+            <div class="info">
+                <h3>Dead Poets Society</h3>
+                <p>1989</p>
+            </div>
+        </div>
+    </div>
 
+    
+<div class="red-icon">
+    <i class="fas fa-film"></i>
+    <h2>Famous Movies</h2>
+    
+</div>
+    
+    <div class="movies-container">
+        <button class="scroll-btn prev" onclick="scrollMovies('left')">&#10094;</button>
+        <section class="movies-section">
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/8mile.jpg" alt="8 Mile">
+                    <div class="year-label">2002</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">8 Mile</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/ROTS.webp" alt="Revenge of the Sith">
+                    <div class="year-label">2005</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">Revenge of the Sith</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/BTTF.jpg" alt="Back to the Future">
+                    <div class="year-label">1985</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">Back to the Future</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/Cuckoos_nest.jpg" alt="One Flew Over the Cuckoo's Nest">
+                    <div class="year-label">1975</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">One Flew Over the Cuckoo's Nest</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/TESB.jpg" alt="The Empire Strikes Back">
+                    <div class="year-label">1980</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">The Empire Strikes Back</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/True_Romance.jpg" alt="True Romance">
+                    <div class="year-label">1993</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">True Romance</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/Terminator2.jpg" alt="Terminator 2: Judgment Day">
+                    <div class="year-label">1991</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">Terminator 2: Judgment Day</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/Forrest_Gump.jpg" alt="Forrest Gump">
+                    <div class="year-label">1994</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">Forrest Gump</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/Godfather.jpg" alt="The Godfather">
+                    <div class="year-label">1972</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">The Godfather</div>
+            </div>
+            <div class="movie">
+                <div class="movie-item">
+                    <img src="images/Prisoners.jpg" alt="Prisoners">
+                    <div class="year-label">2013</div>
+                    <div class="overlay">
+                        <i class="fas fa-play"></i>
+                    </div>
+                </div>
+                <div class="movie-name">Prisoners</div>
+            </div>
+        </section>
+        <button class="scroll-btn next" onclick="scrollMovies('right')">&#10095;</button>
+    </div>
+
+      
+<div class="red-icon">
+    <i class="fa-solid fa-camera-movie"></i>
+    <h2>Famous Series</h2>
+    
+</div>
+<div class="series-container">
+    <button class="scroll-btn prev" onclick="scrollSeries('left')">&#10094;</button>
+    <section class="series-section">
+        <div class="series">
+            <div class="series-item">
+                <img src="images/TWD.jpg" alt="8 Mile">
+                <div class="year-label">2010</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">The Walking Dead</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/Twin_Peaks.jpg" alt="Revenge of the Sith">
+                <div class="year-label">1990</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Twin Peaks</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/Mr_Robot.jpg" alt="Back to the Future">
+                <div class="year-label">2015</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Mr. Robot</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/Prison_Preak.jpg" alt="One Flew Over the Cuckoo's Nest">
+                <div class="year-label">2005</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Prison Break</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/Ninjago.jpg" alt="The Empire Strikes Back">
+                <div class="year-label">2011</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Ninjago: Masters of Spinjitzu</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/BB.jpg" alt="True Romance">
+                <div class="year-label">2008</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Breaking Bad</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/Dexter.jpg" alt="Terminator 2: Judgment Day">
+                <div class="year-label">2006</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Dexter</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/The_Boys.jpg" alt="Forrest Gump">
+                <div class="year-label">2019</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">The Boys</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/Saul.jpg" alt="The Godfather">
+                <div class="year-label">2015</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">Better Call Saul</div>
+        </div>
+        <div class="series">
+            <div class="series-item">
+                <img src="images/House.jpg" alt="Prisoners">
+                <div class="year-label">2004</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="series-name">House</div>
+        </div>
+    </section>
+    <button class="scroll-btn next" onclick="scrollSeries('right')">&#10095;</button>
+</div>
+    
+<div class="red-icon">
+    <i class="fa-regular fa-popcorn"></i>
+    <h2>Now in cinemas</h2>
+    
+</div>
+<div class="cinema-container">
+    <button class="scroll-btn prev" onclick="scrollCinema('left')">&#10094;</button>
+    <section class="cinema-section">
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/bad_boys4.jpg" alt="8 Mile">
+
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">BAD BOYS: RIDE OR DIE</div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/The Fall Guy.jpg " alt="Revenge of the Sith">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">The Fall Guy </div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/KungFuPanda.jpg" alt="Back to the Future">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">KUNG FU PANDA 4</div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/FURIOSA.jpg" alt="One Flew Over the Cuckoo's Nest">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">FURIOSA: A MAD MAX SAGA</div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/Spaceman.jpeg" alt="The Empire Strikes Back">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">Spaceman</div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/Tarot.jpg" alt="True Romance">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">TAROT </div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/THE MINISTRY OF UNGENTLEMANLY WARFARE.jpg" alt="Terminator 2: Judgment Day">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">THE MINISTRY OF UNGENTLEMANLY WARFARE </div>
+        </div>
+        <div class="cinema">
+            <div class="cinema-item">
+                <img src="images/CHALLENGERS.jpg" alt="Forrest Gump">
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="cinema-name">CHALLENGERSp</div>
+        </div>
+       
+    </section>
+    <button class="scroll-btn next" onclick="scrollCinema('right')">&#10095;</button>
+</div>
+
+    
+<div class="red-icon">
+    <i class="fa-regular fa-clapperboard"></i>
+    <h2>New Added Movies</h2>
+    
+</div>
+<div class="added-container">
+    <button class="scroll-btn prev" onclick="scrollAdded('left')">&#10094;</button>
+    <section class="added-section">
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Nornam.jpg" alt="8 Mile">
+                <div class="year-label">2016</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">Nornam  </div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Garfield.jpg" alt="8 Mile">
+                <div class="year-label">2024</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">The Garfield Movie</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/All saints.jpg" alt="8 Mile">
+                <div class="year-label">2017</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">All Saints</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Here Today.jpg" alt="8 Mile">
+                <div class="year-label">2021</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">Here Today</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Ode to joy.jpg" alt="8 Mile">
+                <div class="year-label">2019</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">Ode to joy</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Jockey.jpg" alt="8 Mile">
+                <div class="year-label">2021</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">Jockey</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/FURIOSA.jpg" alt="8 Mile">
+                <div class="year-label">2024</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">FURIOSA: A MAD MAX SAGA</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/bad_boys4.jpg" alt="8 Mile">
+                <div class="year-label">2024</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">BAD BOYS: RIDE OR DIE</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Tarot.jpg" alt="8 Mile">
+                <div class="year-label">2024</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">Tarot</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/12.jpg" alt="8 Mile">
+                <div class="year-label">2021</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">12 MIGHTY ORPHANS </div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/Joe Bell.jpg" alt="8 Mile">
+                <div class="year-label">2020</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">Joe Bell</div>
+        </div>
+        <div class="added">
+            <div class="added-item">
+                <img src="images/The Kid Detective.jpg" alt="8 Mile">
+                <div class="year-label">2020</div>
+                <div class="overlay">
+                    <i class="fas fa-play"></i>
+                </div>
+            </div>
+            <div class="added-name">The Kid Detective </div>
+        </div>
+       
+    </section>
+    <button class="scroll-btn next" onclick="scrollAdded('right')">&#10095;</button>
+</div>
+
+<div class="red-icon">
+    <i class="fa-duotone fa-masks-theater"></i>
+    <h2>Actors </h2>
+    
+</div>
+
+<div class="actor-container">
+    
+    <button class="scroll-btn prev-actor" onclick="scrollActors('left')">&#10094;</button>
+    <button class="scroll-btn next-actor" onclick="scrollActors('right')">&#10095;</button>
+    <section class="actor-section">
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/anadearmas.jpg" alt="Ana de Armas">
+            </div>
+            <div class="actor-name">Ana de Armas</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Gosling.jpg" alt="Ryan Gosling">
+            </div>
+            <div class="actor-name">Ryan Gosling</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Gyllenhaal.jpg" alt="Jake Gyllenhaal">
+            </div>
+            <div class="actor-name">Jake Gyllenhaal</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Hayden.jpg" alt="Hayden Christensen">
+            </div>
+            <div class="actor-name">Hayden Christensen</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Portman.jpg" alt="Natalie Portman">
+            </div>
+            <div class="actor-name">Natalie Portman</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Scarlett Johansson.jpg" alt="Scarlett Johansson">
+            </div>
+            <div class="actor-name">Scarlett Johansson</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Tom Hanks.jpg" alt="Tom Hanks">
+            </div>
+            <div class="actor-name">Tom Hanks</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Ewan McGregor.jpg" alt="Ewan McGregor">
+            </div>
+            <div class="actor-name">Ewan McGregor</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Niccolle Wallace.jpg" alt="Nicole Kidman">
+            </div>
+            <div class="actor-name">Nicole Kidman</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Keanu Reeves.jpg" alt="Keanu Reeves">
+            </div>
+            <div class="actor-name">Keanu Reeves</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Austin Butler.jpg" alt="Austin Butler">
+            </div>
+            <div class="actor-name">Austin Butler</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Tobey Maguire.jpg" alt="Tobey Maguire">
+            </div>
+            <div class="actor-name">Tobey Maguire</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Brad Pitt.jpg" alt="Brad Pitt">
+            </div>
+            <div class="actor-name">Brad Pitt</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Morgan Freeman.jpg" alt="Morgan Freeman">
+            </div>
+            <div class="actor-name">Morgan Freeman</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Hugh Jackman.jpg" alt="Hugh Jackman">
+            </div>
+            <div class="actor-name">Hugh Jackman</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Johnny Depp.jpg" alt="Johnny Depp">
+            </div>
+            <div class="actor-name">Johnny Depp</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Denzel Washington.jpg" alt="Denzel Washington">
+            </div>
+            <div class="actor-name">Denzel Washington</div>
+        </div>
+        <div class="actor">
+            <div class="actor-item">
+                <img src="images/Robert De Niro.jpg" alt="Robert De Niro">
+            </div>
+            <div class="actor-name">Robert De Niro</div>
+        </div>
+        
+
+    </section>
+    
+</div>
+<nav class="navbar-bottom">
+    <a href="https://www.tbceducation.ge/" class="navbar-logo">
+        <img src="images/TBC.jpeg" alt="Logo">
+    </a>
+    <a href="https://www.tbceducation.ge/" class="navbar-text">tbc.education.ge</a>
+
+    <div class="navbar-icons">
+        <a href="https://www.facebook.com/yourpage" target="_blank" class="navbar-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" class="navbar-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </div>
+</nav>
+
+
+
+
+    <script>
+function scrollMovies(direction) {
+    const container = document.querySelector('.movies-section');
+    const movies = document.querySelectorAll('.movie');
+
+    
+    const movieWidth = movies[0].getBoundingClientRect().width + parseInt(getComputedStyle(movies[0]).marginRight);
+
+   
+    const moviesPerRow = 2; 
+    const visibleWidth = moviesPerRow * movieWidth;
+
+  
+    const currentScroll = container.scrollLeft;
+
+
+    let nextScroll;
+    if (direction === 'left') {
+        nextScroll = Math.max(0, currentScroll - visibleWidth);
+    } else if (direction === 'right') {
+        nextScroll = Math.min(container.scrollWidth - container.clientWidth, currentScroll + visibleWidth);
+    }
+
+    container.scrollTo({
+        left: nextScroll,
+        behavior: 'smooth'
+    });
+}
+
+function scrollSeries(direction) {
+    const container = document.querySelector('.series-section');
+    const series = document.querySelectorAll('.series');
+
+
+    const seriesWidth = series[0].getBoundingClientRect().width + parseInt(getComputedStyle(series[0]).marginRight);
+
+   
+    const seriesPerRow = 2; 
+    const visibleWidth = seriesPerRow * seriesWidth;
+
+   
+    const currentScroll = container.scrollLeft;
+
+    let nextScroll;
+    if (direction === 'left') {
+        nextScroll = Math.max(0, currentScroll - visibleWidth);
+    } else if (direction === 'right') {
+        nextScroll = Math.min(container.scrollWidth - container.clientWidth, currentScroll + visibleWidth);
+    }
+
+    
+    container.scrollTo({
+        left: nextScroll,
+        behavior: 'smooth'
+    });
+}
+
+function scrollCinema(direction) {
+    const container = document.querySelector('.cinema-section');
+    const cinema = document.querySelectorAll('.cinema');
+
+   
+    const cinemaWidth = cinema[0].getBoundingClientRect().width + parseInt(getComputedStyle(cinema[0]).marginRight);
+
+  
+    const cinemaPerRow = 2;
+    const visibleWidth = cinemaPerRow * cinemaWidth;
+
+    
+    const currentScroll = container.scrollLeft;
+
+   
+    let nextScroll;
+    if (direction === 'left') {
+        nextScroll = Math.max(0, currentScroll - visibleWidth);
+    } else if (direction === 'right') {
+        nextScroll = Math.min(container.scrollWidth - container.clientWidth, currentScroll + visibleWidth);
+    }
+
+    
+    container.scrollTo({
+        left: nextScroll,
+        behavior: 'smooth'
+    });
+}
+
+function scrollAdded(direction) {
+    const container = document.querySelector('.added-section');
+    const added = document.querySelectorAll('.added');
+
+  
+    const addedWidth = added[0].getBoundingClientRect().width + parseInt(getComputedStyle(added[0]).marginRight);
+
+    
+    const addedPerRow = 2; 
+    const visibleWidth = addedPerRow * addedWidth;
+
+   
+    const currentScroll = container.scrollLeft;
+
+    
+    let nextScroll;
+    if (direction === 'left') {
+        nextScroll = Math.max(0, currentScroll - visibleWidth);
+    } else if (direction === 'right') {
+        nextScroll = Math.min(container.scrollWidth - container.clientWidth, currentScroll + visibleWidth);
+    }
+
+   
+    container.scrollTo({
+        left: nextScroll,
+        behavior: 'smooth'
+    });
+}
+
+function scrollActors(direction) {
+    const container = document.querySelector('.actor-section');
+    const actors = document.querySelectorAll('.actor');
+
+
+    const actorWidth = actors[0].getBoundingClientRect().width + parseInt(getComputedStyle(actors[0]).marginRight);
+
+   
+    const actorsPerRow = 3; 
+    const visibleWidth = actorsPerRow * actorWidth;
+
+    
+    const currentScroll = container.scrollLeft;
+
+    let nextScroll;
+    if (direction === 'left') {
+        nextScroll = Math.max(0, currentScroll - visibleWidth);
+    } else if (direction === 'right') {
+        nextScroll = Math.min(container.scrollWidth - container.clientWidth, currentScroll + visibleWidth);
+    }
+
+   
+    container.scrollTo({
+        left: nextScroll,
+        behavior: 'smooth'
+    });
+}
+    
+    </script>
+    
+    
+    
+    
 </body>
 </html>
+ 
